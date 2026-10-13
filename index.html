@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Drill2</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+
+    <style>
+        body {
+            background-color: #b6dcc3;
+            font-family: Arial;
+        }
+
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: #238556;
+        }
+
+        button {
+            background-color: #25654e !important;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Dance Club</h1>
+        <p class="text-center">Member Manager</p>
+
+        <label>First Name</label>
+        <input type="text" id="first_name" class="form-control mb-3">
+
+        <label>Last Name</label>
+        <input type="text" id="last_name" class="form-control mb-3">
+
+        <button class="btn w-100" py-click="add_member">
+            Add Member
+        </button>
+
+        <div id="results" class="mt-4"></div>
+    </div>
+
+    <script type="py" src="main.py"></script>
+</body>
+</html>
+
+
+</body>
+</html>
